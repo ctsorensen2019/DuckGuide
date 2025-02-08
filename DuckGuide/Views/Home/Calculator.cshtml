@@ -63,6 +63,7 @@
                 <h1>Pricing</h1>
             </div>
         </div><!-- End Page Title -->
+        <!-- Calculator -->
         <section id="pricing" class="pricing section">
             <div class="container">
                 <div class="row g-4 g-lg-0">
@@ -75,22 +76,27 @@
                                 <li><i class="bi bi-check"></i> <span>Instant calculation</span></li>
                             </ul>
                             <div>
+                                <!-- Editable -->
                                 <label for="hours">Hours Needed:</label>
                                 <input type="number" id="hours" min="1">
                                 <br />
+                                <!-- Only appears if submit is clicked -->
                                 <span id="error-message" style="color: red; display: none;">Please enter a valid number.</span>
                             </div>
                             <br />
                             <div>
+                                <!-- Not Editable -->
                                 <label for="rate">Hourly Rate:</label>
                                 <input type="text" id="rate" value="10" readonly> <!-- Change 20 to your actual rate -->
                             </div>
                             <br />
+                            <!-- Calculate Button -->
                             <div class="text-center">
                                 <button id="calculate" class="buy-btn">Calculate</button>
                             </div>
                             <br />
                             <div>
+                                <!-- Not editable, only fills with text if valid numbers are entered and the calculate button is clicked -->
                                 <label for="total">Total Cost:</label>
                                 <input type="text" id="total" readonly>
                             </div>
@@ -101,7 +107,7 @@
         </section>
 
     </main>
-
+    <!-- Footer -->
     <footer id="footer" class="footer dark-background">
 
         <div class="container">
