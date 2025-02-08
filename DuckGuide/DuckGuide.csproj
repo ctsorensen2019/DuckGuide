@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\img\DeltaWaterfowl-NorthAmericanDucks-SuccessStories.webp" />
+  </ItemGroup>
+
 </Project>
